@@ -1,0 +1,73 @@
+/* Reset default margin and padding */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a soft pastel background color */
+body {
+    background-color: #f0e9e9; /* Light pastel color */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Style the header navigation */
+nav {
+    background-color: #6c5b7b; /* Pastel purple */
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* White text */
+    font-weight: 700;
+    margin: 0 10px;
+}
+
+/* Style the container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the iframe (your chatbot) */
+iframe {
+    display: block;
+    margin: 0 auto;
+    border: none; /* Remove iframe border */
+}
+
+/* Style sections */
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Style headings */
+h2 {
+    font-size: 24px;
+    color: #4a90e2; /* Pastel blue */
+}
+
+/* Style text content */
+p {
+    font-size: 16px;
+    color: #444; /* Dark gray text */
+}
+
+/* Style the banner image */
+section#home img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #fff; /* Add a white border */
+}
+
+/* Style the handwriting font class */
+.handwriting {
+    font-family: 'cursive', sans-serif;
+}
+
+/* Add custom styles for the Research Papers section, About ChatBot, and Contact Us as needed */
+
+/* You can also add media queries for responsive design */
